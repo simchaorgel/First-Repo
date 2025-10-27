@@ -1,0 +1,32 @@
+.main-content {
+    max-width: 1000px;
+    padding: 60px 100px 0 100px;
+}
+
+.page-title {
+    font-size: 48px;
+    color: var(--primary-green);
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.paragraph {
+    font-family: 'Calibri';
+    font-size: 19px;
+}
+
+h2 {
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+    color: var(--primary-green);
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 60px 30px 0 30px;
+    }
+
+    .page-title {
+        font-size: 36px;
+    }
+}

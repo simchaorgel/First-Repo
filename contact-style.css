@@ -1,0 +1,91 @@
+.main-content {
+    max-width: 800px;
+}
+
+.page-title {
+    font-size: 48px;
+    color: var(--primary-green);
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.paragraph {
+    font-family: 'Calibri';
+    font-size: 20px;
+    padding: 0px 0 20px 0;
+    margin: 10px auto;
+}
+
+h2 {
+    font-family: 'Calibri';
+    font-size: 37px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+}
+
+
+/* Form */
+
+.form_label {
+    display: block;
+    font-family: 'Calibri';
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+input, textarea{
+    width: 600px;
+    font-size: 19px;
+    background-color: #E8F5E9;
+    padding: 8px 10px;
+}
+
+textarea {
+    max-width: 600px;
+    min-width: 600px;
+    height: 300px;
+    font-family: 'Calibri';
+    font-size: 18px;
+    border: #000000 1.6px solid;
+    padding: 10px;
+}
+
+#form_submit_btn {
+    width: 150px;
+    height: 50px;
+    background-color: var(--primary-green);
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    transition: all 0.1s ease;
+}
+#form_submit_btn:hover {
+    background-color: #234d35;
+    box-shadow: 0 3px 10px var(--shadow);
+    transition: all 0.1s ease;
+}
+
+/* thank you page */
+.thank_you_msg {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 60px 30px 100px 30px;
+    }
+
+    .page-title {
+        font-size: 36px;
+    }
+
+    input, textarea{
+        width: 100%;
+        max-width: 100%;
+        min-width:100%;
+        padding: 8px 10px;
+    }   
+}

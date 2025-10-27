@@ -1,0 +1,39 @@
+.main-content {
+    width: 800px;
+}
+
+.page-title {
+    font-size: 48px;
+    color: var(--primary-green);
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.paragraph {
+    font-family: 'Calibri';
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+#small_iframe {
+        display: none;
+}
+
+@media (max-width: 850px) {
+    .main-content {
+        padding: 60px 30px 100px 30px;
+        width: auto;
+    }
+
+    .page-title {
+        font-size: 36px;
+    }
+
+    #big_iframe {
+        display: none;
+    }
+    #small_iframe {
+        display: block;
+    }
+}

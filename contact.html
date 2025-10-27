@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for proper rendering and SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perla Orgel - Couple and Individual Psychodynamic Psychotherapist working in London and remotely">
+    <title>Perla Orgel - Contact Me</title>
+        
+    <!-- Style links-->
+    <link rel="stylesheet" href="global-style.css">
+    <link rel="stylesheet" href="contact-style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <!-- Navigation links to separate HTML pages -->
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Me</a></li>
+                <li><a href="what-to-expect.html" class="nav-link">What to Expect</a></li>
+                <li><a href="location.html" class="nav-link">Location</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact Me</a></li>
+            </ul>
+        </nav>
+        <button id="mobile_menu_btn">
+            <img src="media/menu.png">
+        </button>
+    </header>
+
+    <div id="menu_overlay">
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Me</a></li>
+            <li><a href="what-to-expect.html" class="nav-link">What to Expect</a></li>
+            <li><a href="location.html" class="nav-link">Location</a></li>
+            <li><a href="contact.html" class="nav-link active">Contact Me</a></li>
+        </ul>
+    </div> 
+
+    <!-- Main content -->
+    <main class="main-content smooth-float">
+        <h1 class="page-title">Contact me</h1>
+        <hr>
+        <div class="paragraph">
+            Fill in the form below and I will endeavour to respond within 2 days.
+            If you would like to be contacted by phone or text, please include a contact number in the message box below,
+            along with what time you are available to speak.
+            <br>
+            All enquiries are strictly confidential. 
+            <br>
+            Alternatively, email me on perla@ypoconsultancy.com or call +447581336818.
+        </div>
+
+        <form id="contact_form" name="contact_form" data-netlify="true" action="thank-you.html">
+            <label class="form_label">Name</label>
+            <input type="text" id="form_name_box" name="Name" required>
+            <label class="form_label">Email</label>
+            <input type="email" id="form_email_box" name="Email" required>
+            <label class="form_label">Message</label>
+            <textarea id="form_message_box" name="Message" required></textarea>
+            <br>
+            <button type="submit" id="form_submit_btn">Submit</button>
+        </form>
+
+    </main>
+    
+    <footer class="main-footer">
+        <p>&copy; 2025 Perla Orgel. All rights reserved.</p>
+    </footer>
+
+    <a id="contact-btn" href="contact.html"><img src="media/message.png" alt="message"></a>
+    
+    <script src="script.js"></script>
+</body>
+</html>
